@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo CSS</title>
+    <!---Parte apenas CSS-->
+    <style>
+        /*Determinando uma classe para estilizar*/
+        body {
+            background: gray;
+        }
+        h2 {
+            color: red;
+            font-size: 40px;
+        }
+        /*Usando uma classe, para mudar a estilizaçao de um h2 diferente*/
+        /*Também pode ser utilizado o CSS inline para realizar a mudança*/
+        .h2type2 {
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body style="background: gray">
+    <!--CSS inline: quando um estilo é dado apenas para aquela tag na sua utilizaçao-->
+    <!--Colocando atributos ao título-->
+    <h1 style="color: white; font-size:50px">Primeira aula CSS</h1>    
+    <h2>Primeiro Subtitulo</h2>
+    <h2 class="h2type2">Segundo Subtitulo</h2>
+</body>
+</html>
